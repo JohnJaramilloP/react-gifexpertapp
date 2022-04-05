@@ -1,0 +1,82 @@
+* {
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+body {
+  background: url("../src/images/background.jpg") no-repeat center center/cover;
+  color: #fff;
+}
+
+hr {
+  width: 100%;
+  height: .5rem;
+  background-color: #e3e4e5;
+  border: none;
+}
+
+.git-expert-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 60%;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  text-align: center;
+  outline: none;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 6rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3rem;
+}
+
+.card {
+  width: 30%;
+  height: 35vh;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  margin-bottom:1rem;
+  margin-right: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  width: 90%;
+  height: 70%;
+}
